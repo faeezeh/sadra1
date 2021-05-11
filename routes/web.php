@@ -1,7 +1,9 @@
 <?php
 
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ApiOneController;
+use App\Http\Controllers\ApiTwoController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -29,7 +31,16 @@ Route::get('/aboutus', function () {
     return view('aboutus');
 });
 
-
-
 Route::post('/token-mobile', [ApiOneController::class, 'sendMobileToken']);
 Route::post('/verify-mobile', [ApiOneController::class, 'mobileVerification']);
+
+Route::post('/token-mobile2', [ApiTwoController::class, 'sendMobileToken']);
+Route::post('/verify-mobile2', [ApiTwoController::class, 'mobileVerification']);
+
+
+Route::post('/Api3', function (Request $request) {
+    $token = \App\Models\Token2::where('token',$request->token)->first();
+//    dd($token->user_id);
+    $user = \App\Models\User::where('id',$token->user_id)->get();
+return $user;
+});

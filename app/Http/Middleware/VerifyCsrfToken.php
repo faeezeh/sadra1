@@ -13,6 +13,9 @@ class VerifyCsrfToken extends Middleware
      */
     protected $except = [
         '/token-mobile',
-        '/verify-mobile'
+        '/verify-mobile',
+        '/token-mobile2',
+        '/verify-mobile2',
+        '/Api3'
     ];
 }
