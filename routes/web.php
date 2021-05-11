@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\ApiOneController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -28,3 +28,8 @@ Route::get('/product', function () {
 Route::get('/aboutus', function () {
     return view('aboutus');
 });
+
+
+
+Route::post('/token-mobile', [ApiOneController::class, 'sendMobileToken']);
+Route::post('/verify-mobile', [ApiOneController::class, 'mobileVerification']);

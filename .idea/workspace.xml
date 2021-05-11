@@ -128,7 +128,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="H:/faezeWindows/XAMP project/htdocs123/HKN" />
+    <property name="last_opened_file_path" value="H:/faezeWindows/XAMP project/htdocs123/Ribopay" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -153,7 +153,7 @@
       <updated>1620717942484</updated>
       <workItem from="1620717943632" duration="3108000" />
       <workItem from="1620721361203" duration="540000" />
-      <workItem from="1620721927007" duration="3366000" />
+      <workItem from="1620721927007" duration="7849000" />
     </task>
     <servers />
   </component>
@@ -161,9 +161,17 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="496" y="107" key="FileChooserDialogImpl" timestamp="1620718528868">
+    <state x="433" y="107" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1620730041905">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="496" y="107" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1620718528868" />
+    <state x="433" y="107" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1620730041905" />
+    <state x="496" y="107" key="FileChooserDialogImpl" timestamp="1620727283983">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="496" y="107" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1620727283983" />
+    <state x="409" y="78" width="718" height="668" key="find.popup" timestamp="1620732227727">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="409" y="78" width="718" height="668" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1620732227727" />
   </component>
 </project>
